@@ -60,9 +60,9 @@ POST http://localhost:8081/planets/
     climate é clima do planeta
     terrain é terreno do planeta
 
-  CODE - RESPOSTA
-  200 - salvou com sucesso
-  500 - falhou a requisição
+  RESPOSTA:
+  	200 - salvou com sucesso
+  	500 - falhou a requisição
 
 
 -----------------------------------------------------------
@@ -82,9 +82,9 @@ PUT http://localhost:8081/planets/
     climate é clima do planeta
     terrain é terreno do planeta
   
-  | CODE | RESPOSTA |
-  | 200 | salvou com sucesso |
-  | 500 | falhou a requisição |
+  RESPOSTA:
+  	200 - salvou com sucesso
+  	500 - falhou a requisição
 
 
 -----------------------------------------------------------
@@ -94,6 +94,6 @@ DELETE http://localhost:8081/planets/PLANETID
 
   PLANETID é id do planeta no banco
   
-  CODE - RESPOSTA
-  200 - deletou com sucesso
-  500 - falhou a requisição
+  RESPOSTA:
+  	200 - deletou com sucesso
+  	500 - falhou a requisição
