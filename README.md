@@ -82,9 +82,9 @@ PUT http://localhost:8081/planets/
     climate é clima do planeta
     terrain é terreno do planeta
   
-  CODE - RESPOSTA
-  200 - salvou com sucesso
-  500 - falhou a requisição
+  | CODE | RESPOSTA |
+  | 200 | salvou com sucesso |
+  | 500 | falhou a requisição |
 
 
 -----------------------------------------------------------
