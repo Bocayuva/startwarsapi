@@ -22,13 +22,15 @@ Teste da api usar o arquivo postman: Starwars.postman_collection.json
 -----------------------------------------------------------
 
 -----------------------------------------------------------
------           BUSCAR TODOS OS PLANETAS              -----
+
+----- BUSCAR TODOS OS PLANETAS
 
 GET http://localhost:8081/planets/
 
 
 -----------------------------------------------------------
------        BUSCAR UM PLANETA PELO ID                -----
+
+----- BUSCAR UM PLANETA PELO ID
 
 GET http://localhost:8081/planets/PLANETID
 
@@ -36,15 +38,16 @@ GET http://localhost:8081/planets/PLANETID
 
 
 -----------------------------------------------------------
------        BUSCAR UM PLANETA PELO NOME              -----
+
+----- BUSCAR UM PLANETA PELO NOME
 
 GET http://localhost:8081/planets/name/PLANETNAME
 
   PLANETNAME é nome do planeta salvo no banco
 
-
 -----------------------------------------------------------
------               CRIAR UM PLANETA                  -----
+
+----- CRIAR UM PLANETA
 
 POST http://localhost:8081/planets/
 
@@ -66,7 +69,8 @@ POST http://localhost:8081/planets/
 
 
 -----------------------------------------------------------
------               ATUALIZAR UM PLANETA              -----
+
+----- ATUALIZAR UM PLANETA
 
 PUT http://localhost:8081/planets/
 
@@ -88,7 +92,7 @@ PUT http://localhost:8081/planets/
 
 
 -----------------------------------------------------------
------               DELETAR UM PLANETA                -----
+----- DELETAR UM PLANETA
 
 DELETE http://localhost:8081/planets/PLANETID
 
